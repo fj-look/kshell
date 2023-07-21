@@ -1,3 +1,6 @@
+# 安装  wget https://raw.githubusercontent.com/fj-look/kshell/master/fail2ban.sh && bash fail2ban.sh 2>&1 | tee fail2ban.log
+# 卸载  wget https://raw.githubusercontent.com/fj-look/kshell/master/fail2ban-uninstall.sh && bash fail2ban-uninstall.sh
+
 clear
 #CheckIfRoot
 [ $(id -u) != "0" ] && { echo "${CFAILURE}Error: You must be root to run this script${CEND}"; exit 1; }
