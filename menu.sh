@@ -137,15 +137,3 @@ function start_menu(){
     esac
 }
 start_menu "first"
-	;;
-        0 )
-            exit 1
-        ;;
-        * )
-            clear
-            red "请输入正确数字 !"
-            start_menu
-        ;;
-    esac
-}
-start_menu "first"
