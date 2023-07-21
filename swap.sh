@@ -3,6 +3,11 @@ Green="\033[32m"
 Font="\033[0m"
 Red="\033[31m" 
 
+# wget -O "/root/swap.sh" "https://raw.githubusercontent.com/fj-look/kshell/master/swap.sh" --no-check-certificate -T 30 -t 5 -d
+# chmod +x "/root/swap.sh"
+# chmod 777 "/root/swap.sh"
+# bash "/root/swap.sh"
+
 #root权限
 root_need(){
     if [[ $EUID -ne 0 ]]; then
